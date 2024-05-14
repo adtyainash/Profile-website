@@ -7,7 +7,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url('/assets/img/bg.png');
+    background: url('https://storage.googleapis.com/navyprofile/bg.png');
     background-size: cover;
     position: relative;
     display: flex;
@@ -63,6 +63,13 @@ body {
     flex-direction: column;
   }
 
+  .main-container img {
+    width: 200px; /* or any desired width */
+    /* height: 150px; or any desired height */
+    border-radius: 50%;
+    object-fit: cover;
+    padding-bottom: 1rem;
+  }
   .social-links {
     padding: 1.5em 0.18em;
   }
